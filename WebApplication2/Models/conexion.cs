@@ -44,7 +44,7 @@ namespace WebApplication2.Models
                             Debug.WriteLine("nn"+ reader["NumeroOpcion"].ToString());
                         }
                     }
-
+                    CerrarConexion();
                     return response;
                 }
 
